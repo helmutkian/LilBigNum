@@ -1,3 +1,19 @@
+BigInt operator+(const BigInt &lhs, const BigInt &rhs)
+{
+	return lhs.add(rhs);
+}
+
+BigInt operator-(const BigInt &lhs, const BigInt &rhs)
+{
+	return lhs.sub(rhs);
+}
+
+BigInt operator*(const BigInt &lhs, const BigInt &rhs)
+{
+	return lhs.mult(rhs);
+}
+
+
 BigInt BigInt::mult(const BigInt &rhs)
 {
 	const std::string 
